@@ -1,0 +1,15 @@
+	body{
+		
+		margin-left : 20%;
+		margin-right : 20%;
+		border: 2px gray;
+		padding: 10px 10px 10px 10px;
+
+	}
+	body, h1, h2 ,h3 {
+		font-family: san-serif;
+		color: #CB36D4;
+	}
+	h1{
+		border-bottom: 2px solid black;
+	}
