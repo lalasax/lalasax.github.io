@@ -5,15 +5,28 @@
 		padding: 10px 10px 10px 10px;
 		border-left: 2px solid gray;
 		border-right: 2px solid gray;
+	/*	background-color: gray; */
 		background-color: #D6E1FF;
 
 	}
-	body, h2 ,h3 {
-		font-family: san-serif;
+	body {
+		font-family: Verdana,sans-serif;
 		color: #8F26B1;
+		font-size: small;
+		text-align: center;
 	}
-	h1{
-		border-bottom: 2px solid black;
-		font-family: san-serif;
+
+	h1,h2{
+		/*text-align: center;*/
+		border-bottom: 2px solid gray;
 		color: gray;
+		/*font-weight: bold;*/
+		font-family: 'Handlee',comic-sans,sans-serif;
+	}
+	h2{ color: #D65BDE;}
+	h1{ font-size: 250%;}
+	h2{ font-size: 150%;}
+	ol{
+		border: 1px solid gray;
+		font-weight: bold;
 	}
