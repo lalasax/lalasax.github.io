@@ -1,13 +1,24 @@
 <!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>iRock java testing ---- or is it iCat</title>
-</head>
-<body onload="alert('Hello, I'm your iCat pet, feel free to pet me, but be wary, I can bite xD');">
-<p>Instead of iRock i will use iCat, don't mind me</p>
-<div style="margin-top: 100px; text-align: center">
-	<img id="catImg" src="cat.jpg" alt="iCat">	
-</div>
-</body>
-</html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>iRock java testing ---- or is it iCat</title>
+			<script type="text/javascript">
+			function touchRock() {
+				var userName = prompt("What is your name?", "Enter your name here.");
+				if (userName) {
+					alert("It is good to meet you, " + userName + ". But your face is quite ugly, I'm afraid to say");
+					document.getElementById("catImg").src = "cat_smaller.jpg";
+				}
+			}
+			</script>
+		</head>
+		<body onload="alert('Hello, I am your iCat pet , feel free to pet me, but be wary, I can bite xD');">
+			<p>Instead of iRock i will use iCat, don't mind me</p>
+			<div style="margin-top: 20px; text-align: center">
+				<img id="catImg" src="cat.jpg" alt="iCat" style = "cursor:pointer" onclick="touchRock();">
+					
+				</style> 
+			</div>
+		</body>
+	</html>

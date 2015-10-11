@@ -2,7 +2,7 @@
 		
 		margin-left : 20%;
 		margin-right : 20%;
-		padding: 10px 10px 10px 10px;
+		padding: 30px;
 		/*border-left: 1px solid gray;
 		border-right: 1px solid gray;*/
 		background-color: black; 
@@ -12,39 +12,53 @@
 		font-size: small;
 		text-align: center;
 		line-height: 150%;
-		background: black url(starry_ed.jpg) fixed no-repeat center;
+		background: black url(starry_1366.jpg) fixed no-repeat center;
+		font-weight: bold;
 	}
-	h1{
+	h1{ font-size: 250%;
+		font-weight: bold;
+		margin-bottom: 5em;
 		/*text-align: center;*/
 		/*border-bottom: 1px solid gray;*/
 		color: gray;
 		/*font-weight: bold;*/
 		font-family: 'Handlee',"Comic Sans MS",sans-serif;
 		text-decoration: underline overline;
-
+		
 	}
-	h2{ color: #D65BDE;}
-	h1{ font-size: 250%;
-		font-weight: bold;
+	h2{ font-size: 150%;
+		margin-top: 5em;
+		margin-bottom: 5em;
+		color: #DC1B44;
 	}
-	h2{ font-size: 150%;}
-	ol{
+	ol,ul{
 		border: 1px solid gray;
 		font-weight: bold;
-	}
-	p.cat{
-		font-family: "Comic Sans MS",sans-serif;
-		/*font-style: italic;*/
-		text-decoration: line-through;
+		text-align: left;
+		background-color: black;
+		border: thin dashed black ;
+
+		/*border-radius: 2em;*/
+		margin-right: 100px;
+		margin-left: 100px;
+
 	}
 	code {
 		color: black;
 		border: 1px solid gray;
 		background-color: white;
 	}
-	p.getter {
-		background-color: white;
-	}
 	p {
-		color: green;
+		
+		background-color: black;
+	}
+	.goal{
+		background-image: url(xstar.png) no-repeat ;
+		background-position: left;
+		border: thin white dashed;
+		padding: 50px;
+
+		margin-top: 50px;
+		/*float: left; 		padding-left: 110px;*/
+
 	}
