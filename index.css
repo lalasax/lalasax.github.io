@@ -1,32 +1,26 @@
 	body{
-		
 		margin-left : 20%;
 		margin-right : 20%;
 		padding: 30px;
 		/*border-left: 1px solid gray;
 		border-right: 1px solid gray;*/
-		background-color: black; 
+		background-color: rgba(0, 0, 0, 0.5); 
 		/*background-color: #D6E1FF;*/
-		font-family: Verdana,sans-serif;
+		font: bold small/150% Verdana,sans-serif;
 		color: #8F26B1;
-		font-size: small;
 		text-align: center;
-		line-height: 150%;
 		background: black url(starry_1366.jpg) fixed no-repeat center;
-		font-weight: bold;
+		line-height: 1,5em;
 	}
-	h1{ font-size: 250%;
-		font-weight: bold;
+	h1{ 
 		margin-bottom: 5em;
-		/*text-align: center;*/
-		/*border-bottom: 1px solid gray;*/
 		color: gray;
-		/*font-weight: bold;*/
-		font-family: 'Handlee',"Comic Sans MS",sans-serif;
+		font: 250% bold 'Handlee',"Comic Sans MS",sans-serif;
 		text-decoration: underline overline;
 		
 	}
-	h2{ font-size: 150%;
+	h2{ 
+		font-size: 150%;
 		margin-top: 5em;
 		margin-bottom: 5em;
 		color: #DC1B44;
@@ -35,10 +29,8 @@
 		border: 1px solid gray;
 		font-weight: bold;
 		text-align: left;
-		background-color: black;
-		border: thin dashed black ;
-
-		/*border-radius: 2em;*/
+		background-color: rgba(0, 0, 0, 0.8);
+		border: thin dashed blue ;
 		margin-right: 100px;
 		margin-left: 100px;
 
@@ -50,7 +42,7 @@
 	}
 	p {
 		
-		background-color: black;
+		background-color: rgba(0, 0, 0, 0.8);
 	}
 	.goal{
 		background-image: url(xstar.png) no-repeat ;
@@ -62,8 +54,18 @@
 		/*float: left; 		padding-left: 110px;*/
 
 	}
-	.cat{
-		/*this is weird
-		lạ thật
-		*/
-}
+
+	@media  screen and (max-width: 480x) {
+		ol,ul{
+			margin-right: 25px;
+			margin-left: 25px;
+		}
+	}
+	#menu{
+		background-color : rgba(0, 0, 0, 0.7);
+		border: thin dashed purple;
+		padding: 20px;
+	}
+	a {
+		color: blue;
+	}

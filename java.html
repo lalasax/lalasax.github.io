@@ -1,24 +1,38 @@
 <!doctype html>
-	<html>
-		<head>
-			<meta charset="utf-8">
-			<title>iRock java testing ---- or is it iCat</title>
-			<script type="text/javascript">
-			function touchRock() {
-				var userName = prompt("What is your name?", "Enter your name here.");
-				if (userName) {
-					alert("It is good to meet you, " + userName + ". But your face is quite ugly, I'm afraid to say");
-					document.getElementById("catImg").src = "cat_smaller.jpg";
-				}
-			}
-			</script>
-		</head>
-		<body onload="alert('Hello, I am your iCat pet , feel free to pet me, but be wary, I can bite xD');">
-			<p>Instead of iRock i will use iCat, don't mind me</p>
-			<div style="margin-top: 20px; text-align: center">
-				<img id="catImg" src="cat.jpg" alt="iCat" style = "cursor:pointer" onclick="touchRock();">
-					
-				</style> 
-			</div>
-		</body>
-	</html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>iRock java testing ---- or is it iCat</title>
+	<script type="text/javascript">
+	function touchRock() {
+		var userName = prompt("What is your name?", "Enter your name here.");
+		if (userName) {
+			alert("It is good to meet you, " + userName + ". But your face is quite ugly, I'm afraid to say");
+			document.getElementById("catImg").src = "cat_smaller.jpg";
+		}
+	}
+	</script>
+</head>
+<body onload="alert('Hello, I am your iCat pet , feel free to pet me, but be wary, I can bite xD');">
+	<p>Instead of iRock i will use iCat, don't mind me</p>
+	<div style="margin-top: 20px; text-align: center">
+		<img id="catImg" src="cat.jpg" alt="iCat" style = "cursor:pointer" onclick="touchRock();">
+		
+	</style> 
+</div>
+<div id="menu">
+	<div id="home">
+		<a href="index.html" "Back to home">Home</a>
+	</div>
+	<div id="java">
+		<a href="java.html" "Go to iCat pet page">To iCat</a>
+	</div>
+	<div id="things">
+		<a href="things.html" "Go to the little things page">To things </a>
+	</div>
+	<div id="getText">
+		<a href="getText.html" "Go to ITH get text page">To ITH getter</a>
+	</div>
+</div>
+</body>
+</html>
