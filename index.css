@@ -65,7 +65,20 @@
 		background-color : rgba(0, 0, 0, 0.7);
 		border: thin dashed purple;
 		padding: 20px;
+		float: left;
+		position: fixed;
+		margin-left: -250px;
 	}
-	a {
+	a:link {
 		color: blue;
+	}
+	a:visited{
+		color: #8F26B1;
+	}
+	a:hover{
+		background: white;
+		color: red;
+	}
+	#back{
+		background: black;
 	}
