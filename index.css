@@ -64,10 +64,11 @@
 	#menu{
 		background-color : rgba(0, 0, 0, 0.7);
 		border: thin dashed purple;
-		padding: 20px;
 		float: left;
 		position: fixed;
+		padding: 10px;
 		margin-left: -250px;
+		width: 150px;
 	}
 	a:link {
 		color: blue;
@@ -81,4 +82,14 @@
 	}
 	#back{
 		background: black;
+	}
+	#footer{
+		background: black;
+		color: blue;
+		text-align: center;
+		font-size: 90%;
+		font-style: italic;
+		font-weight: small
+		margin-bottom: 0px;
+		padding-bottom:  0px;
 	}

@@ -4,21 +4,37 @@
 	<meta charset="utf-8">
 	<title>iRock java testing ---- or is it iCat</title>
 	<script type="text/javascript">
-	function touchRock() {
-		var userName = prompt("What is your name?", "Enter your name here.");
-		if (userName) {
-			alert("It is good to meet you, " + userName + ". But your face is quite ugly, I'm afraid to say");
+	function touchCat() {
+		var userName ;
+
+		if (userName) 
+		{
+			alert("I like that, " + userName + "keep petting me!")
+		} else 
+		{
+			userName=prompt("What is your name?", "Enter your name here.");
+			if (userName)
+			{
+				alert("It is good to meet you, " + userName + ". But your face is quite ugly, I am afraid to say");
+			}
 			document.getElementById("catImg").src = "cat_smaller.jpg";
-		}
-	}
-	</script>
+			setTimeout("document.getElementById('catImg').src='cat.jpg';"),5000)
+}
+}
+function greeting()
+{
+	alert('Hello, I am your iCat pet , feel free to pet me, but be wary, I can bite xD');
+}
+function resizeCat()
+{
+	document.getElementById("catImg").style.height = (document.body.clientHeight - 100 ) * .9 ;
+}
+</script>
 </head>
-<body onload="alert('Hello, I am your iCat pet , feel free to pet me, but be wary, I can bite xD');">
+<body onload="greeting(); resizeCat();" onresize="resizeCat();">
 	<p>Instead of iRock i will use iCat, don't mind me</p>
 	<div style="margin-top: 20px; text-align: center">
-		<img id="catImg" src="cat.jpg" alt="iCat" style = "cursor:pointer" onclick="touchRock();">
-		
-	</style> 
+		<img id="catImg" src="cat.jpg" alt="iCat" style = "cursor:pointer" onclick="touchCat();">
 </div>
 <div id="menu">
 	<div id="home">
