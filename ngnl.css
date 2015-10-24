@@ -1,0 +1,52 @@
+body {
+
+	text-align: center;
+
+}
+
+table {
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid purple;
+	border-collapse: collapse;
+	line-height: 3;	
+	width: 900px;
+}
+
+td,th {	
+	border: 1px dashed gray;
+	text-align: center;
+	font: #A12B9D;
+}
+
+th {
+	color: red;
+	background-color: #F49821;
+	font-size: 20px; 
+	text-transform: capitalize;
+}
+tr:nth-child(2n) {
+	background-color: #FDCA88;
+
+}
+div#menu{
+	border: thin dashed purple;
+	float: left;
+	position: absolute;
+	padding: 10px;
+	width: 150px;
+}
+a:link {
+	color: blue;
+}
+a:visited{
+	color: #8F26B1;
+}
+a:hover{
+	background: white;
+	color: red;
+}
+rt {
+	font-size: 10px;
+}

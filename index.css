@@ -61,7 +61,7 @@
 			margin-left: 25px;
 		}
 	}
-	#menu{
+	div#menu{
 		background-color : rgba(0, 0, 0, 0.7);
 		border: thin dashed purple;
 		float: left;
