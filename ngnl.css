@@ -1,7 +1,13 @@
 body {
 
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 
+}
+
+h1 {
+
+	color : purple;
 }
 
 table {
@@ -11,7 +17,7 @@ table {
 	border: 1px solid purple;
 	border-collapse: collapse;
 	line-height: 3;	
-	width: 900px;
+	width: 900px; 
 }
 
 td,th {	
@@ -29,6 +35,13 @@ th {
 tr:nth-child(2n) {
 	background-color: #FDCA88;
 
+}
+td:nth-child(2n+1) {
+	color: red;
+}
+
+td:nth-child(2n) {
+	color: #8C33F9;
 }
 div#menu{
 	border: thin dashed purple;
@@ -49,4 +62,5 @@ a:hover{
 }
 rt {
 	font-size: 10px;
+	color: #3E48CF;
 }
